@@ -1,7 +1,7 @@
 ## Climon 
 A minimalist,lightweight system monitor for Linux written in C.<br>
 It is a low level utility that provides essential system metrics by parsing the linux kernel's pseudo filesystems **/proc**.
-![climon-preview](assets/preview.png)
+![climon-preview](assets/climonpreview.png)
 ### ✨ features
 - Uptime view with hours, minutes and seconds.
 - Total memory and used memory in GiB with percentage.
