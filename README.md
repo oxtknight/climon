@@ -1,5 +1,5 @@
 ## Climon 
-A minimalist,lightweight system monitor for Linux written in C.<br>
+A minimalist,lightweight system monitor for Linux written in C.  
 
 It is a low level utility that provides essential system metrics by parsing the linux kernel's pseudo filesystems  **/proc**.
 
