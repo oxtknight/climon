@@ -1,6 +1,10 @@
-program: source.code/main.c
-	gcc source.code/main.c -lm -o climon
+CC = gcc
+CFLAGS = -Wall -Wextra -Werror
+SRC = source.code/main.c
+TARGET = climon
+all:
+    $(CC) $(CFLAGS) $(SRC) -lm -o $(TARGET)
+    sudo mv $(TARGET) /usr/local/bin/
+    echo "Climon installed to Linux bin"
 clean:
-	rm -f source.code/climon
-run: all
-	./climon
+	rm -f $(TARGET)
